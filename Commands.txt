@@ -1,0 +1,11 @@
+1. To create the item :- curl -X POST -d "{\"title\":\"Science\",\"Author\":\"Taxil\",\"price\":25.5}" -H "Content-Type: application/json" http://localhost:8080/books
+
+-- created the second car :- >curl -X POST -d "{\"title\":\"Web Development\",\"Author\":\"Mital\",\"price\":50.5}" -H "Content-Type: application/json" http://localhost:8080/books
+
+2. To list the items :- curl http://localhost:8080/books
+
+3. To update the items :- curl -X PUT -d "{\"title\":\"App Development\",\"Author\":\"Hardik\",\"price\":10.5}" -H "Content-Type: application/json" http://localhost:8080/books/1
+
+4. To delete the items :- curl -X DELETE http://localhost:8080/books/1
+
+Attached the screenshot for the execution of the cars created, updated, read and deleted. 
